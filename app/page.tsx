@@ -9,6 +9,7 @@ export default function Home() {
     <main className={inter.className}>
       <h1>Home Page</h1>
       <Link href="/bio">Link to bio</Link>
+      <br ></br>
       <Link href="/users">Link to users</Link>
     </main>
   );
