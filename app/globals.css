@@ -25,10 +25,16 @@ h2{
   font-weight: bold;
 }
 
+
+
 body {
   color: rgb(var(--foreground-rgb));
   background: bisque;
     padding: 1rem;
+}
+
+.sub-title{
+  font-size: 1.5rem;
 }
 
 .top-bar{
