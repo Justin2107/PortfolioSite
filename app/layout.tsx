@@ -23,7 +23,7 @@ export default function RootLayout({
               <Link href="/" key="about">--ABOUT-</Link>
               <Link href="/bio" key="cv">-CV-</Link>
               <Link href="/users" key="users">-USERS-</Link>
-              -PORTFOLIO--
+              <Link href="/portfolio" key="portfolio">-PORTFOLIO--</Link>
             </div>
           </h2>
         </nav>

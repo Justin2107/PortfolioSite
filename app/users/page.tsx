@@ -14,10 +14,7 @@ export default async function UsersPage() {
     console.log('Hello')
 
     const content = (
-        <section>
-            <h2>
-                <Link href="/">Back to home</Link>
-            </h2>
+        <section className='content'>
             <br />
             {users.map(user => {
                 return(

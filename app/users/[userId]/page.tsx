@@ -41,14 +41,14 @@ export default async function UserPage({ params: { userId }}: Params) {
     }
 
     return (
-        <>
-            <h2>{user.name}</h2>
+        <div className='content'>
+            <h1>{user.name}</h1>
             <br />
             <Suspense fallback={<h2>Loading...</h2>}>
                 <UserPosts promise={userPostsData} />
             </Suspense>
             
-        </>
+        </div>
     )
 }
 
