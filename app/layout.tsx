@@ -18,14 +18,14 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <nav>
-          <h2 className="top-bar">
+          <h3 className="top-bar">
             <div style={{ display: 'flex', justifyContent: 'right', alignItems: 'right'}}>
               <Link href="/" style={{marginRight: '20px'}}>ABOUT</Link>
               <Link href="/bio" style={{marginRight: '20px'}}>CV</Link>
               <Link href="/users" style={{marginRight: '20px'}}>USERS</Link>
               <Link href="/portfolio" style={{marginRight: '20px'}}>PORTFOLIO</Link>
             </div>
-          </h2>
+          </h3>
         </nav>
         {children}
       </body>
