@@ -16,7 +16,7 @@
 }
 
 h1{
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -27,12 +27,7 @@ h2{
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: bisque;
     padding: 1rem;
 }
 
@@ -48,6 +43,8 @@ body {
 }
 .content{
   padding-top: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 @layer utilities {

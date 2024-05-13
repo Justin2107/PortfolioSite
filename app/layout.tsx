@@ -20,9 +20,10 @@ export default function RootLayout({
         <nav>
           <h2 className="top-bar">
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-              My Navbar
-              <Link href="/bio">Link to bio</Link>
-              <Link href="/users">Link to users</Link>
+              <Link href="/" key="about">--ABOUT-</Link>
+              <Link href="/bio" key="cv">-CV-</Link>
+              <Link href="/users" key="users">-USERS-</Link>
+              -PORTFOLIO--
             </div>
           </h2>
         </nav>
