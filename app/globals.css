@@ -56,6 +56,10 @@ body {
   margin-right: 10rem;
 }
 
+.click:hover{
+  opacity: 0.7;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
