@@ -6,8 +6,7 @@ export default function Bio() {
   return (
     <>
       <div className='content'>
-        <h1>Bio</h1>
-        <Link href="/">Link to homepage</Link>
+        <h1>Curriculum Vitae</h1>
       </div>
     </>
     
